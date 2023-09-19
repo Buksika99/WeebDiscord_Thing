@@ -9,7 +9,7 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from credentials.env
-load_dotenv(".env")
+load_dotenv("credentials.env")
 # Access the BOT_TOKEN environment variable
 bot_token = os.getenv("BOT_TOKEN")
 
