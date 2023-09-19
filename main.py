@@ -6,7 +6,6 @@ from pydantic import BaseModel
 from fastapi.responses import JSONResponse, PlainTextResponse
 from dotenv import load_dotenv
 import os
-from dotenv import load_dotenv
 
 # Load environment variables from credentials.env
 load_dotenv("credentials.env")
