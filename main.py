@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import os
 
 # Load environment variables from credentials.env
-load_dotenv(".env")
+load_dotenv("credentials.env")
 
 app = FastAPI()
 
